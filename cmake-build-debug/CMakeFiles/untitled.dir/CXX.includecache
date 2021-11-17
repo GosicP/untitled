@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Pavle/CLionProjects/Vezba/untitled/Buket.h
+iostream
+-
+Cvet.h
+C:/Users/Pavle/CLionProjects/Vezba/untitled/Cvet.h
+
+C:/Users/Pavle/CLionProjects/Vezba/untitled/Cvecara.h
+iostream
+-
+Cvet.h
+C:/Users/Pavle/CLionProjects/Vezba/untitled/Cvet.h
+Buket.h
+C:/Users/Pavle/CLionProjects/Vezba/untitled/Buket.h
+
+C:/Users/Pavle/CLionProjects/Vezba/untitled/Cvet.h
+iostream
+-
+
+C:/Users/Pavle/CLionProjects/Vezba/untitled/main.cpp
+iostream
+-
+Cvet.h
+C:/Users/Pavle/CLionProjects/Vezba/untitled/Cvet.h
+Buket.h
+C:/Users/Pavle/CLionProjects/Vezba/untitled/Buket.h
+Cvecara.h
+C:/Users/Pavle/CLionProjects/Vezba/untitled/Cvecara.h
+
