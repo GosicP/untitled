@@ -31,9 +31,10 @@ public:
 
 
     friend ostream& operator<<(ostream &os, const Cvecara &cvec){
+        os<<"CVECARA"<<endl;
         os <<"ZARADA="<<cvec.zarada_cvecara<<"RSD"<<endl;
         for(Cvecara::node* tek=cvec.prvi;tek;tek=tek->next){
-            os << tek->bouqet->find_name_bouqet() << endl;
+            os <<"("<<tek->bouqet->find_name_bouqet()<<")"<< endl;
         }
         return os;
     };
